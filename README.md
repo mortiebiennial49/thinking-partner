@@ -68,25 +68,26 @@ See the full catalog in [`skills/thinking-partner/references/model-catalog.md`](
 <details>
 <summary>Manual install per agent</summary>
 
-**Claude Code (Plugin)**
+**Claude Code**
 ```bash
-/plugin marketplace add mattnowdev/thinking-partner
-/plugin install thinking-partner@mattnowdev-thinking-partner
-```
-
-**Claude Code (Manual)**
-```bash
-cp -r skills/thinking-partner ~/.claude/skills/thinking-partner
+git clone https://github.com/mattnowdev/thinking-partner.git
+cp -r thinking-partner/skills/thinking-partner ~/.claude/skills/thinking-partner
 ```
 
 **Cursor**
-Copy `skills/thinking-partner/SKILL.md` and the `references/` directory into `.cursor/rules/`.
+```bash
+git clone https://github.com/mattnowdev/thinking-partner.git
+cp -r thinking-partner/skills/thinking-partner .cursor/skills/thinking-partner
+```
 
 **Windsurf**
-Copy `skills/thinking-partner/SKILL.md` and the `references/` directory into `.windsurfrules/`.
+```bash
+git clone https://github.com/mattnowdev/thinking-partner.git
+cp -r thinking-partner/skills/thinking-partner .windsurf/skills/thinking-partner
+```
 
 **Other Agents**
-Copy the skill files into your agent's custom instructions or rules directory.
+Copy the `skills/thinking-partner/` directory (including `references/`) into your agent's skills directory.
 
 </details>
 
