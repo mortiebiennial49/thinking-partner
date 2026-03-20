@@ -1,12 +1,18 @@
 # Thinking Partner
 
-A deterministic thinking partner skill for AI agents that challenges assumptions and applies 150+ mental models to sharpen decisions, solve problems, and think more clearly.
+A deterministic thinking partner that challenges assumptions and applies 150+ mental models to sharpen decisions, solve problems, and think more clearly.
 
-Built on the open [Agent Skills](https://agentskills.io) standard — works with Claude Code, Cursor, Windsurf, and any agent that supports the standard.
+Built on the open [Agent Skills](https://agentskills.io) standard. Works with Claude Code, Cursor, Windsurf, Cline, GitHub Copilot, and any AI agent that supports the standard.
+
+## Install
+
+```bash
+npx skillsadd mattnowdev/thinking-partner
+```
 
 ## What It Does
 
-Not a lecture — a sparring session. This skill turns your AI agent into a thinking partner that:
+Not a lecture — a sparring session. Turns your AI agent into a thinking partner that:
 
 - **Challenges assumptions** — Surfaces hidden beliefs you're treating as facts
 - **Applies mental models** — Selects and deploys the right frameworks for your situation (150+ models across 17 disciplines)
@@ -33,42 +39,6 @@ Not a lecture — a sparring session. This skill turns your AI agent into a thin
 | **Structured Workflow** | 6-step deterministic process from diagnosis to synthesis | Freeform |
 | **Anti-Patterns** | Explicit guidance on what NOT to do | None |
 
-## Install
-
-### Claude Code (Plugin)
-
-```bash
-/plugin marketplace add mattnowdev/thinking-partner
-/plugin install thinking-partner@mattnowdev-thinking-partner
-```
-
-### Claude Code (Manual)
-
-```bash
-# Copy to your skills directory
-cp -r skills/thinking-partner ~/.claude/skills/thinking-partner
-```
-
-### Cursor / Windsurf / Other Agents
-
-Copy the `skills/thinking-partner/SKILL.md` file (and the `references/` directory) into your agent's custom instructions or rules directory. The skill follows the open Agent Skills standard and works with any agent that can read markdown instructions.
-
-### npx (One-liner)
-
-```bash
-npx skillsadd mattnowdev/thinking-partner
-```
-
-## Usage
-
-Just ask your AI agent to think with you:
-
-```
-/thinking-partner help me decide whether to take this job offer
-```
-
-Or use natural language — the skill triggers automatically on phrases like "help me think through", "what am I missing", "stress test this", etc.
-
 ## Mental Models Included
 
 Organized across 17 disciplines:
@@ -92,6 +62,33 @@ Organized across 17 disciplines:
 - **Ethics & Responsibility**: Veil of Ignorance
 
 See the full catalog in [`skills/thinking-partner/references/model-catalog.md`](skills/thinking-partner/references/model-catalog.md).
+
+## Alternative Install
+
+<details>
+<summary>Manual install per agent</summary>
+
+**Claude Code (Plugin)**
+```bash
+/plugin marketplace add mattnowdev/thinking-partner
+/plugin install thinking-partner@mattnowdev-thinking-partner
+```
+
+**Claude Code (Manual)**
+```bash
+cp -r skills/thinking-partner ~/.claude/skills/thinking-partner
+```
+
+**Cursor**
+Copy `skills/thinking-partner/SKILL.md` and the `references/` directory into `.cursor/rules/`.
+
+**Windsurf**
+Copy `skills/thinking-partner/SKILL.md` and the `references/` directory into `.windsurfrules/`.
+
+**Other Agents**
+Copy the skill files into your agent's custom instructions or rules directory.
+
+</details>
 
 ## License
 
